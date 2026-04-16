@@ -1,8 +1,8 @@
 from ultralytics import YOLO
 import cv2
 
-model = YOLO("yolo11n.pt")
-cap = cv2.VideoCapture("car_highway.mp4")
+model = YOLO("../yolo11n.pt")
+cap = cv2.VideoCapture("../car_highway.mp4")
 counted_ids = set()
 # cap.set(cv2.CAP_PROP_POS_FRAMES, 99)
 while True:
